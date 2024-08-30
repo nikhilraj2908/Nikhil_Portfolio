@@ -1,0 +1,20 @@
+.card:hover{
+    box-shadow: 2px 2px 2px rgb(37, 37, 37);
+    border: 1px solid rgb(146, 141, 141);
+    cursor: pointer;
+}
+.card-header img{
+    width: 100%;
+}
+.pagination-container{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    background-color: rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px){
+    .pagination-container{
+        display: block;
+        padding: 10px;
+    }
+}

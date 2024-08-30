@@ -1,0 +1,22 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    
+}
+.contect-footer{
+    display: flex;
+}
+.qr-container{
+    margin: 0px;
+}
+@media (max-width :767px){
+    .footer-container{
+        display: block;   
+    }
+    .contect-footer{
+        display: block;   
+    }
+    .qr-container {
+        margin: -20px !important;
+      }
+}
