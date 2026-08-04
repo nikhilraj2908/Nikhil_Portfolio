@@ -21,8 +21,8 @@ export function Portfolio(props) {
     const [btnshow, setbtnshow] = useState("none")
     const [aboutMe] = useState("../../images/me.jpg");
     const carouselRef = useRef("none"); // Reference to the carousel
-    const [text, settext] = useState("My_Learnings")
-    const [IandT, setIandT] = useState("Internship_And_Training")
+    const [text, settext] = useState("Technical_Skills")
+    const [IandT, setIandT] = useState("Professional_Experience")
     const [discriptionsty, setdiscriptionsty] = useState({ display: "none" })
     const [cardsty, setcardsty] = useState({ display: "block" })
     const [extra, setextra] = useState("")
@@ -50,10 +50,10 @@ export function Portfolio(props) {
                         <h1>{name}</h1>
                     </div>
                     <div className="designation">
-                        <h6 >MERN STACK DEVELOPER</h6>
+                        <h6 >Software Developer</h6>
                     </div>
                     <p >
-                        Motivated and growth-oriented professional aiming to join a dynamic organization where I can utilize my skills to drive success and innovation. Also, I want challenging opportunities where I can fully use my skills for the success of the organization.
+                       Full Stack Developer with 2 years of experience developing scalable web and mobile applications. Proficient in React.js, React Native, Node.js, MongoDB, REST APIs, AWS, Firebase, and Google Cloud.
                     </p>
                     <div className="contact-icon">
                         <a className="bi bi-telephone-outbound-fill" href="tel:+918821051303" ></a>
@@ -64,10 +64,10 @@ export function Portfolio(props) {
                     </div>
                     <br />
                     <span>
-                        <button className="btn btn-success"><a href="Nikhil_A.pdf" download className="text-decoration-none text-light">Download_CV</a></button>
+                        <button className="btn btn-success"><a href="Nikhil_A.pdf" download className="text-decoration-none text-light">Download Resume</a></button>
                     </span>
                     <span>
-                        <button className="btn btn-primary mx-2">Discover Now</button>
+                        <button className="btn btn-primary mx-2">View Projects</button>
                     </span>
                 </div>
                 <div>
@@ -90,8 +90,11 @@ export function Portfolio(props) {
                         </div>
                         <div>
                             <p className="about-text">
-                                Hello I am <b>Nikhil Ahirwar</b>, welcoming you on my portfolio website. I would like to start by telling you about my technical skills so, my technical skills includes HTML5, CSS3, Bootstrap, Javascript, JQuery and React JS in frontend development, and in backend development I know about NodeJS and express JS and in terms of database I prefer MongoDB but little bit knoowledge of MySQL as well. Apart from web I know some languages like C/C++ and python. I am happy to tell you that not only in technical but also in soft skills I found my self lucky as I am a national player, poet and also an ex-ncc cadet. because of these all versatile activities my college honored me as <b>"Best-All-Rounder"</b> award-2023. hope you are willing to know more about me.
-                            </p>
+                                Hi, I'm Nikhil Ahirwar, a Software Developer with over two years of experience in full-stack web and mobile application development.
+
+I specialize in React.js, React Native, Node.js, Express.js, MongoDB, Firebase, AWS, and REST APIs. Throughout my career, I've developed enterprise applications including Learning Management Systems, Project Management Platforms, Digital WordPress Solutions, and Merchant Management Systems.
+
+I enjoy building scalable applications with clean architecture, intuitive user experiences, and optimized backend services. My goal is to continuously improve my technical expertise while delivering impactful software solutions.                            </p>
                             <br />
                             <Carousel indicators={false} ref={carouselRef} interval={3000}>
                                 <Carousel.Item>
